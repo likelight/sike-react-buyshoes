@@ -1,3 +1,4 @@
+
 Download the starter kit for the `buyshoes` project:
 
 ```
@@ -45,3 +46,5 @@ make server
 # terminal 2
 make css
 ```
+
+
