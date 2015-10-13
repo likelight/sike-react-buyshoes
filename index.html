@@ -16,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.css">
     <script type="text/javascript" src="node_modules/perfect-scrollbar/dist/js/perfect-scrollbar.js">
     </script>
-
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="node_modules/react/dist/react.js"></script>
+    <script type="text/javascript" src="build/app.js"></script>
 
     <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 
@@ -76,11 +76,9 @@
             </div>
 
             <div class="product__control">
-              <div class="adjust-qty adjust-qty--gray">
-                <a class="adjust-qty__button">-</a>
-                <div class="adjust-qty__number">3</div>
-                <a class="adjust-qty__button">+</a>
-              </div>
+              <a class="product__add">
+                <img class="product__add__icon" src="img/cart-icon.svg"/>
+              </a>
             </div>
 
             <div class="product__price">
@@ -97,19 +95,10 @@
           </div>
         </div> <!-- product -->
 
-
-
-
-
-
-
-
-
     </div> <!-- site__content -->
   </div>
 
   <div class="site__right-sidebar">
-
     <div class="cart">
       <h3 class="cart__title">Shopping Cart</h3>
       <div class="cart__content">
