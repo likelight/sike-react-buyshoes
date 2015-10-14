@@ -1,6 +1,7 @@
 const React = require('react');
-const QuantityControl = require('QuantityControl');
-
+const Data = require('../data');
+const QuantityControl = require('./QuantityControl');
+let products = Data.products;
 let CartItem = React.createClass({
     render () {
       let {id, quantity} = this.props.cartItem;

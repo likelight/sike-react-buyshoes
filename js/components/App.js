@@ -1,3 +1,4 @@
+const React = require('react');
 const SiteTitle = require('./SiteTitle');
 const Checkout = require('./Checkout');
 const Cart = require('./Cart');

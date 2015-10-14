@@ -1,5 +1,6 @@
-
+const React = require('react');
 const Data = require('../data');
+const CartItem = require('./CartItem');
 const Ps = require("perfect-scrollbar");
 
 let cartData = Data.cartItems;
